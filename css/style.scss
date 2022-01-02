@@ -1,34 +1,39 @@
 @import "nullstyle.scss";
-@import url("https://fonts.googleapis.com/css2?family=Roboto+Mono:wght@300&family=Shizuru&display=swap");
+@import url('https://fonts.googleapis.com/css2?family=Source+Sans+Pro:wght@300&display=swap');
 .wrapper {
     max-width: 100%;
-    overflow: hidden;
     display: flex;
     flex-direction: column;
 }
 body {
     min-width: 1400px;
+    background-color: white;
 }
 
 p {
-    font-family: "Roboto mono";
-    font-size: 15px;
+    font-family: "Source Sans Pro";
+    font-size: 18px;
     line-height: 1.5em;
+    letter-spacing: 1.5;
+    font-weight: 600;
 }
 .container {
     max-width: 1600px;
     margin: 0 auto;
     background-color: #eeeeee;
-    padding: 50px;
-    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+    padding: 50px 100px;
+    z-index:0;
+    
+    
+   
 }
-.header {
+.head {
     display: flex;
 
     &__title {
         font-size: 25px;
         font-weight: 900;
-        font-family: "Roboto mono";
+        font-family: "Source Sans Pro";
         margin: 0 0 20px 0;
     }
 
@@ -55,8 +60,8 @@ p {
 
 img.avatar {
     width: 200px;
-    height: 200px;
-    border-radius: 100%;
+    height: 220px;
+    
 }
 .contacts__title {
     font-weight: 600;
@@ -102,6 +107,7 @@ img.avatar {
     position: relative;
     display: flex;
     justify-content: space-around;
+    margin-bottom: -50px;
 }
 img.git {
     width: 200px;
@@ -120,7 +126,7 @@ img.rss {
     font-weight: 900;
 }
 .progressbar {
-    margin-left: 100px;
+    margin-left: 170px;
     height: 20px;
     position: absolute;
 
@@ -188,3 +194,36 @@ img.rss {
     display: flex;
 }
 
+.header p:hover { 
+    color:blue;
+
+
+
+}
+.navigation {
+    display:flex;
+    justify-content: center;
+    margin: 0 0 50px 0;
+   
+        p {
+            font-size: 20px;
+            color:black;
+            text-transform: uppercase;
+            font-weight: 900;
+        }
+		
+}
+.box {
+    padding: 0 25px 0 0;
+    
+   
+}
+.languages {
+    margin: 0 0 50px 0;
+}
+.cv__link {
+    color:black;
+}
+.cv__link:hover {
+    color:blue;
+}

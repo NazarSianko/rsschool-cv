@@ -10,15 +10,39 @@
 
 <body>
     <div class="wrapper">
+        
         <div class="container">
             <header class="header">
-                <div class="header__info">
-                    <h1 class="header__title">Nazar Sianko</h1>
-                    <div class="header__text">
+                <nav class = "navigation">
+                    <div class="navigation__head box">
+                       <a href = "#first__section"> <p>About Me</p></a>
+                    </div>
+                    <div class="navigation__education box">
+                        <a href = "#second__section"> <p>Education</p></a>
+                    </div>
+                    <div class="navigation__code box">
+                        <a href = "#third__section"><p>Code Example</p></a>
+                    </div>
+                    <div class="navigation__experience box">
+                        <a href = "#fourth__section"> <p>Experience</p></a>
+                    </div>
+                    <div class="navigation__skills box">
+                        <a href = "#fifth__section">  <p>Skills</p></a>
+                    </div>
+                    <div class="navigation__languages box">
+                        <a href = "#sixth__section"> <p>Language skills</p></a>
+                    </div>
+                </nav>
+            </header>
+            <main class="main__content">
+            <section class="head">
+                <div class="head__info">
+                    <h1 class="head__title" id = "first__section" >Nazar Sianko</h1>
+                    <div class="head__text">
                         <p>I am 23 years old university graduate and i want to be a web developer. <br>I think i have
                             all qualities and i am motivated to learn.</p>
                     </div>
-                    <nav class="header__contacts">
+                    <div class="head__contacts">
                         <div class="contacts__location">
                             <p class="contacts__title">Location</p> <br>
                             <p> Baranovichi, Belarus</p>
@@ -33,16 +57,16 @@
                         </div>
                         <div class="contacts__github">
                             <p class='contacts__title'>GitHub</p> <br>
-                            <p> <a class ="github__link"  title ="GitHub" href="https://github.com/NazarSianko">NazarSianko</a></p>
+                            <p> <a class ="github__link" target=_blank title ="GitHub" href="https://github.com/NazarSianko">NazarSianko</a></p>
                         </div>
-                    </nav>
+                    </div>
                 </div>
-                <div class="header__img">
+                <div class="head__img">
                     <img class="avatar" src="./img/Pain.png" alt="avatar">
                 </div>
-            </header>
-            <main class="main__content">
-                <section class="education">
+            </section>
+            
+                <section class="education" id = "second__section">
                     <h2 class="education__title title">
                         Education
                     </h2>
@@ -66,7 +90,7 @@
                         </ul>
                     </div>
                 </section>
-                <section class="code">
+                <section class="code" id = "third__section">
                     <div class="code__title title">
                         <h2>Code Example</h2>
                     </div>
@@ -84,21 +108,19 @@
                         </p>
                     </div>
                 </section>
-                <section class="experience">
+                <section class="experience" id = "fourth__section">
                     <div class="experience__title title">
                         <h2>Experience</h2>
                     </div>
                     <div class="experience__about">
-                        <p>Unfortunately nothing yet</p>
-                    </div>
+                         <a href ="https://NazarSianko.github.io/rsschool-cv/" title ="CV Link" target=_blank><p class='cv__link'>CV</p></a>
+                    </div> 
                 </section>
-                <section class="skills">
+                <section class="skills" id = "fifth__section">
                     <div class="skills__title title">
                         <h2>Skills</h2>
                     </div>
                     <div class="skills__info">
-
-
                         <div class="side">
                             <p class="skill_list">HTML</p>
                             <div class="progressbar orange">
@@ -132,7 +154,7 @@
 
                     </div>
                 </section>
-                <section class="languages">
+                <section class="languages" id = "sixth__section">
                     <div class="languages__title title">
                         <h2>Languages</h2>
                     </div>
@@ -156,14 +178,14 @@
             </main>
             <footer class="footer">
                 <div class="github__img">
-                    <a href="https://github.com/NazarSianko" title ="GitHub"><img class="git" src="./img/GitHub-Emblem.png"
+                    <a href="https://github.com/NazarSianko" target=_blank title ="GitHub"><img class="git" src="./img/GitHub-Emblem.png"
                             alt="github"></a>
                 </div>
                 <div class="year">
                     <p class="year">2021</p>
                 </div>
                 <div class="rss__img">
-                    <a href="https://rs.school/js/" title = "RSSchool"><img class="rss" src="./img/rs_school_js.svg" alt="rsschool"></a>
+                    <a href="https://rs.school/js/"  target=_blank title = "RSSchool"><img class="rss" src="./img/rs_school_js.svg" alt="rsschool"></a>
                 </div>
             </footer>
         </div>
