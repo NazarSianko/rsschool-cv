@@ -1,12 +1,11 @@
 @import "nullstyle.scss";
-@import url('https://fonts.googleapis.com/css2?family=Source+Sans+Pro:wght@300&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Source+Sans+Pro:wght@300&display=swap");
 .wrapper {
     max-width: 100%;
     display: flex;
     flex-direction: column;
 }
 body {
-    
     background-color: white;
 }
 
@@ -22,10 +21,7 @@ p {
     margin: 0 auto;
     background-color: #eeeeee;
     padding: 50px 100px;
-    z-index:0;
-    
-    
-   
+    z-index: 0;
 }
 .head {
     display: flex;
@@ -51,17 +47,16 @@ p {
     }
 }
 .github__link:hover {
-    color:blue;
+    color: blue;
 }
 
 .github__link {
-    color:black;
+    color: black;
 }
 
 img.avatar {
     width: 200px;
     height: 220px;
-    
 }
 .contacts__title {
     font-weight: 600;
@@ -179,36 +174,30 @@ img.rss {
     display: flex;
 }
 
-.header p:hover { 
-    color:blue;
-
-
-
+.header p:hover {
+    color: blue;
 }
 .navigation {
-    display:flex;
+    display: flex;
     justify-content: center;
     margin: 0 0 50px 0;
-   
-        p {
-            font-size: 20px;
-            color:black;
-            text-transform: uppercase;
-            font-weight: 900;
-        }
-		
+
+    p {
+        font-size: 20px;
+        color: black;
+        text-transform: uppercase;
+        font-weight: 900;
+    }
 }
 .box {
     padding: 0 25px 0 0;
-    
-   
 }
 .languages {
     margin: 0 0 50px 0;
 }
 .cv__link {
-    color:black;
+    color: black;
 }
 .cv__link:hover {
-    color:blue;
+    color: blue;
 }
